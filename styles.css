@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh; 
+    background-color: rgb(224, 224, 218);
+}
+
+@media only screen and (max-device-width: 480px) {
+    .container{
+        width: 80vw;
+        
+    }
+    img{
+        width: 60vw !important;
+    }
+    #trackBox {
+        font-size: 10px;
+    }
+    .timeBox {
+        flex-direction: column;
+        font-size: 10px;
+        gap: 10px;
+    }
+}
+
+.container {
+    width: 60vw;
+    height: 80vh;
+    background-color: white;
+    box-shadow: 0px -5px 10px 0px rgba(111, 108, 108, 0.5);
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.sec-1 {
+    /* height: 40%; */
+    width: 80%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#userName {
+    font-size: 30px;
+}
+
+img {
+    width: 30vw;
+    height: 40vh;
+}
+
+
+
+#trackBox {
+    /* font-size: 25px; */
+    width: 30vw;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px -5px 10px 0px rgba(161, 149, 149, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeBox {
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 30vw;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px -5px 10px 0px rgba(133, 127, 127, 0.5)
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+#url {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: orange;
+}

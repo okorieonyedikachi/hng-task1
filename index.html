@@ -7,9 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section>
-        <h1 data-testid="Raveen">Okorie Onyedikachi</h1>
-        <img >
-    </section>
+    <div class="container">
+        <section class="sec-1">
+        <img src="dannie.JPG" data-testid="slackDisplayImage">
+        <h1 data-testid="slackUserName" id="userName">Raveen</h1>
+        </section>
+        <div id="trackBox" data-testid="myTrack"><h2>Frontend Track</h2></div>
+        <div class="timeBox">
+            <h3 data-testid="currentDayOfTheWeek">Thursday</h3>
+            <h4 data-testid="currentUTCTime">UTC time</h4>
+        </div>
+        <hr>
+        <div data-testid="githubURL" id="url"><a href="https://github.com/okorieonyedikachi/hng-task1" target="_blank"> My GitHub Url</a></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
